@@ -1,0 +1,170 @@
+/* Fondo */
+.background-image {
+    background-image: url('https://images.unsplash.com/photo-1492943181092-04ffdb34b94e?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-position: center;
+    filter: blur(5px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+/* Colores y Estilos Generales */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con opacidad */
+    color: #343a40; /* Texto gris oscuro */
+}
+
+.section h1, .section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #2d6a4f; /* Verde oscuro */
+}
+
+.section p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: #495057; /* Texto gris medio */
+}
+
+.navbar {
+    background-color: #2d6a4f; /* Navbar verde oscuro */
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    color: #f8f9fa; /* Texto claro */
+}
+
+.nav-link {
+    font-size: 1.1rem;
+    color: #f8f9fa; /* Texto claro */
+}
+
+.nav-link:hover {
+    color: #adb5bd; /* Texto gris claro al pasar el cursor */
+}
+
+.img-thumbnail {
+    border: 2px solid #2d6a4f; /* Borde verde oscuro */
+    transition: transform 0.3s ease;
+}
+
+.img-thumbnail:hover {
+    transform: scale(1.05);
+}
+
+.form-control, .form-textarea {
+    border-radius: 5px;
+    border: 1px solid #ced4da; /* Borde gris claro */
+    padding: 0.5rem;
+    background-color: #f8f9fa; /* Fondo gris claro */
+    color: #495057; /* Texto gris medio */
+}
+
+.btn-primary {
+    background-color: #2d6a4f; /* Verde oscuro */
+    border: none;
+    padding: 0.5rem 1rem;
+    color: #f8f9fa; /* Texto claro */
+    border-radius: 5px;
+}
+
+.btn-primary:hover {
+    background-color: #1b4332; /* Verde aún más oscuro */
+}
+
+/* Colores adicionales */
+.bg-light-beige {
+    background-color: #f5f5dc; /* Beige claro */
+}
+
+.bg-light-brown {
+    background-color: #d2b48c; /* Marrón claro */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .section h1, .section h2 {
+        font-size: 2rem;
+    }
+
+    .section p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .section h1, .section h2 {
+        font-size: 1.75rem;
+    }
+
+    .section p {
+        font-size: 0.9rem;
+    }
+
+    .navbar-brand {
+        font-size: 1.25rem;
+    }
+
+    .nav-link {
+        font-size: 1rem;
+    }
+
+    .list-unstyled li {
+        font-size: 1.1rem;
+    }
+}
+
+/* Efectos de Hover y Scroll para Iconos y Fotos */
+.icon-hover {
+    transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+.icon-hover:hover {
+    color: #1b4332; /* Verde más oscuro */
+    border-color: #1b4332; /* Borde verde más oscuro */
+}
+
+.img-thumbnail-hover {
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.img-thumbnail-hover:hover {
+    transform: scale(1.05);
+    border-color: #1b4332; /* Borde verde más oscuro */
+}
+
+/* Borde de Colores */
+.border-colored {
+    border: 2px solid #2d6a4f; /* Verde oscuro */
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* Secciones */
+.section {
+    padding: 3rem 1rem;
+}
+
+.bg-dark-green {
+    background-color: #2d6a4f; /* Verde oscuro */
+}
+
+.bg-light-beige {
+    background-color: #f5f5dc; /* Beige claro */
+}
+
+.bg-light-brown {
+    background-color: #d2b48c; /* Marrón claro */
+}
+
+.text-white {
+    color: #f8f9fa;
+}
